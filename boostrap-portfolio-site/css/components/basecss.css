@@ -1,0 +1,496 @@
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  ol ol, ul ul, ol ul, ul ol {
+    margin-bottom: 0;
+  }
+  
+  dt {
+    font-weight: 700;
+  }
+  
+  dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+  }
+  
+  blockquote {
+    margin: 0 0 1rem;
+  }
+  
+  strong {
+    font-weight: bolder;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+  
+  sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -.25em;
+  }
+  
+  sup {
+    top: -.5em;
+  }
+  
+  a {
+    color: #c0a7f0;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: #e1d6f5;
+    text-decoration: underline;
+  }
+  
+  a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:not([href]):not([tabindex]):focus {
+    outline: 0;
+  }
+  
+  pre, code, kbd, samp {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1em;
+  }
+  
+  pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+  }
+  
+  figure {
+    margin: 0 0 1rem;
+  }
+  
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  caption {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: bottom;
+  }
+  
+  th {
+    text-align: inherit;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+    border-radius: 0;
+  }
+  
+  button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+  }
+  
+  input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  button, input {
+    overflow: visible;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  select {
+    word-wrap: normal;
+  }
+  
+  textarea {
+    overflow: auto;
+    resize: vertical;
+  }
+  
+  fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  legend {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal;
+  }
+  
+  progress {
+    vertical-align: baseline;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 0.125rem solid rgba(0, 0, 0, 0.1);
+  }
+  
+  small, .small {
+    font-size: 80%;
+    font-weight: 400;
+  }
+
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-inline {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-inline-item {
+    display: inline-block;
+  }
+  
+  .list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  .align-baseline {
+    vertical-align: baseline !important;
+  }
+  
+  .align-top {
+    vertical-align: top !important;
+  }
+  
+  .align-middle {
+    vertical-align: middle !important;
+  }
+  
+  .align-bottom {
+    vertical-align: bottom !important;
+  }
+  
+  .align-text-bottom {
+    vertical-align: text-bottom !important;
+  }
+  
+  .align-text-top {
+    vertical-align: text-top !important;
+  }
+
+  
+/*Border */
+
+.border {
+    border: 0.125rem solid #1a252f !important;
+  }
+  
+  .border-top {
+    border-top: 0.125rem solid #dee2e6 !important;
+  }
+  
+  .border-right {
+    border-right: 0.125rem solid #dee2e6 !important;
+  }
+  
+  .border-bottom {
+    border-bottom: 0.125rem solid #dee2e6 !important;
+  }
+  
+  .border-left {
+    border-left: 0.125rem solid #dee2e6 !important;
+  }
+  
+  .border-0 {
+    border: 0 !important;
+  }
+  
+  .border-top-0 {
+    border-top: 0 !important;
+  }
+  
+  .border-right-0 {
+    border-right: 0 !important;
+  }
+  
+  .border-bottom-0 {
+    border-bottom: 0 !important;
+  }
+  
+  .border-left-0 {
+    border-left: 0 !important;
+  }
+  
+  .border-primary {
+    border-color: #7042c5 !important;
+  }
+  
+  .border-secondary {
+    border-color: #2c3e50 !important;
+  }
+  
+  .border-success {
+    border-color: #28a745 !important;
+  }
+  
+  .border-info {
+    border-color: #17a2b8 !important;
+  }
+  
+  .border-warning {
+    border-color: #ffc107 !important;
+  }
+  
+  .border-danger {
+    border-color: #dc3545 !important;
+  }
+  
+  .border-light {
+    border-color: #f8f9fa !important;
+  }
+  
+  .border-dark {
+    border-color: #1a252f !important;
+  }
+  
+  .border-white {
+    border-color: #fff !important;
+  }
+  
+  /*Rounded Corners */
+  
+  .rounded-sm {
+    border-radius: 0.25rem !important;
+  }
+  
+  .rounded {
+    border-radius: 0.5rem !important;
+  }
+  
+  .rounded-top {
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+  }
+  
+  .rounded-right {
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+  }
+  
+  .rounded-bottom {
+    border-bottom-right-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+  }
+  
+  .rounded-left {
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.75rem !important;
+  }
+  
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  
+  .rounded-pill {
+    border-radius: 50rem !important;
+  }
+  
+  .rounded-0 {
+    border-radius: 0 !important;
+  }
+  
+  .clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  /*Width and Height*/
+
+  .w-25 {
+    width: 25% !important;
+  }
+  
+  .w-50 {
+    width: 50% !important;
+  }
+  
+  .w-75 {
+    width: 75% !important;
+  }
+  
+  .w-100 {
+    width: 100% !important;
+  }
+  
+  .w-auto {
+    width: auto !important;
+  }
+  
+  .h-25 {
+    height: 25% !important;
+  }
+  
+  .h-50 {
+    height: 50% !important;
+  }
+  
+  .h-75 {
+    height: 75% !important;
+  }
+  
+  .h-100 {
+    height: 100% !important;
+  }
+  
+  .h-auto {
+    height: auto !important;
+  }
+  
+  .mw-100 {
+    max-width: 100% !important;
+  }
+  
+  .mh-100 {
+    max-height: 100% !important;
+  }
+  
+  .min-vw-100 {
+    min-width: 100vw !important;
+  }
+  
+  .min-vh-100 {
+    min-height: 100vh !important;
+  }
+  
+  .vw-100 {
+    width: 100vw !important;
+  }
+  
+  .vh-100 {
+    height: 100vh !important;
+  }
+  
