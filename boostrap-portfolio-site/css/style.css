@@ -19,7 +19,7 @@
   @import url("components/display.css");
 
   /*Portfolio and Modals*/
-  @import url("components/modal.css");
+  @import url("components/portfolio.css");
 
   /*Navigation and Navbar*/ 
   @import url("components/navigation.css");
@@ -37,37 +37,6 @@
   /* @import url('https://www.w3schools.com/w3css/4/w3.css'); */
 
   @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
-
-/* :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #1abc9c;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #1abc9c;
-  --secondary: #2c3e50;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-} */
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -96,21 +65,6 @@ body {
   border: 5px solid #212529;
 }
 
-/* [tabindex="-1"]:focus {
-  outline: 0 !important;
-} */
-
-/* abbr[title],
-abbr[data-original-title] {
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
-  cursor: help;
-  border-bottom: 0;
-  -webkit-text-decoration-skip-ink: none;
-  text-decoration-skip-ink: none;
-} */
-
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -138,11 +92,6 @@ template {
   font-size: 1.25rem;
   font-weight: 300;
 }
-
-/* mark, .mark {
-  padding: 0.2em;
-  background-color: #fcf8e3;
-} */
 
 .initialism {
   font-size: 90%;
@@ -351,11 +300,14 @@ a.close.disabled {
   background-color: #7042c5 !important;
 }
 
-/* #about {
-  background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(35)" opacity="1" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
+#about {
+  margin: 30px; 
+  border: #1a252f 5px solid; 
+  box-shadow: #1a252f 10px -10px;
+  /* background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(35)" opacity="1" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
     #000;
-  background-size: 12px, 100%;
-} */
+  background-size: 12px, 100%; */
+}
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -570,7 +522,7 @@ button.bg-dark:focus {
 }
 
 .page-section .page-section-heading {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 2rem;
 }
 
@@ -622,13 +574,13 @@ button.bg-dark:focus {
 
 /* Header */
 .masthead {
-  padding-top: calc(4.5rem + 74px);
+  padding-top: calc(4.5rem + 60px);
   padding-bottom: 3rem;
 }
 
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 
 .masthead .masthead-subheading {
@@ -642,7 +594,7 @@ button.bg-dark:focus {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(4.5rem + 104px);
+    padding-top: calc(4.5rem + 100px);
     padding-bottom: 5rem;
   }
   .masthead .masthead-heading {
@@ -708,6 +660,12 @@ form .row:first-child .floating-label-form-group {
 
 /* Footer */
 
+#contact {
+  margin: 30px; 
+  border: #1a252f 5px solid; 
+  box-shadow: #1a252f 10px -10px;
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -718,4 +676,38 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+@media (max-width: 600px){
+  .masthead .masthead-avatar {
+    width: 17rem;
+    padding-bottom: 0rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .page-section {
+    padding: 3rem 0;
+  }
+
+  #about, #contact {
+    margin: 20px;
+  }
+
+  .divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 5rem;
+  }
+
+  .divider-custom .divider-custom-icon {
+    font-size: 1.5rem;
+  }
+
 }

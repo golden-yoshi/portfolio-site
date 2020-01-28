@@ -23,6 +23,12 @@
   font-size: 1.25rem;
 }
 
+@media (max-width: 600px){
+  .btn-xl {
+    font-size: 0.85rem;
+  }
+}
+
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
@@ -48,7 +54,7 @@
 }
 
 #portfolio .btn {
-  margin: 15px 10px;
+  margin: 15px 10px 30px 10px;
   /* box-shadow: #1a252f 3px 3px; */
 }
 
@@ -615,9 +621,20 @@ fieldset:disabled a.btn {
   border-color: #f8f9fa;
 }
 
+.btn-outline-dark {
+  color: #1a252f;
+  border-color: #1a252f;
+}
+
 .btn-outline-light:hover {
   color: #212529;
   background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-dark:hover {
+  color: #f8f9fa;
+  background-color: #1a252f;
   border-color: #f8f9fa;
 }
 

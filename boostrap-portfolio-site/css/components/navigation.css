@@ -114,6 +114,15 @@
     line-height: inherit;
     white-space: nowrap;
   }
+
+  @media (max-width: 580px){
+    .navbar-brand {
+      font-size: 0.9rem;
+    }
+    .navbar-toggler {
+      font-size: 1rem;
+    }
+  }
   
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
